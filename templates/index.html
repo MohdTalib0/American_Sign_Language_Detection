@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign Language Classification</title>
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Sign Language Classification</h1>
+    </header>
+
+    <form method="post" action="/predict" enctype="multipart/form-data">
+        <label for="image">Upload an image:</label>
+        <input type="file" name="image" id="image">
+        <input type="submit" value="Predict">
+    </form>
+
+    <footer>
+        &copy; 2023 Sign Language Classification. All rights reserved.
+    </footer>
+</body>
+</html>
